@@ -1,0 +1,272 @@
+$navbarHeight: 60px
+//$font: "adelle-sans",sans-serif
+$font: "source-sans-pro", sans-serif
+
+// colors
+$black: #212121
+$green: #46a30e
+$grey: #f6f6f8
+
+
+// General shit
+
+body
+	font-size: 17px
+	font-family: $font
+	-webkit-font-smoothing: antialiased
+	h1, h2, h3, h4
+		font-family: $font
+
+.btn-primary
+	border: none
+
+.btn-lg
+	padding: 11px 16px
+
+.btn-primary
+	background: $green
+
+
+section
+	padding: 2em 0
+	h2
+		text-align: center
+		font-size: 32px
+		text-transform: uppercase
+		font-weight: 100
+form
+	.form-control
+		border: none
+
+// top nav
+header
+	.navbar
+		border-radius: 0
+		height: $navbarHeight
+		background: transparent
+		border: none
+		transition: background .15s ease-in-out
+		&.dark
+			background: rgba(0, 0, 0, .9)
+			.navbar-collapse
+				.navbar-nav
+					li.signup
+						a
+							background: $green
+		.navbar-header
+			.navbar-brand
+				margin: 0 20px
+				padding: 0
+				//width: 220px
+				height: $navbarHeight
+				line-height: $navbarHeight
+				font-size: 24px
+				// background: url('../images/logo-2x.png') center center no-repeat
+				// background-size: 200px 48px
+				color: white
+				i
+					font-size: .75em
+		.navbar-collapse
+			.navbar-nav
+				li
+					a
+						line-height: $navbarHeight
+						font-size: 15px
+						padding: 0 20px
+						font-size: 16px
+						text-transform: uppercase
+						color: white
+						display: block
+						&:hover
+							background: rgba(255, 255, 255, .05)
+
+// Home page
+.hero
+	padding: 4em 0
+	// background: url('../images/spacex.jpg') bottom center no-repeat
+	// background: url('../images/sandhill-blur.jpg') bottom center no-repeat
+	// background-size: cover
+	height: 600px
+	text-align: center
+	.background
+		z-index: -1
+		position: absolute
+		right: 0
+		left: 0
+		top: 0
+		height: 600px
+		overflow: hidden
+		min-width: 1045px
+		background: url('../images/spacex.jpg') bottom center no-repeat
+		background: url('../images/sandhill-blur.jpg') bottom center no-repeat
+		background-size: cover
+		background-position: fixed
+	h1
+		font-size: 58px
+		color: white
+		margin: 110px 0 15px
+	h2
+		color: white
+		font-weight: 100
+		font-size: 28px
+		margin: 0 0 50px
+	form
+		border: 8px solid rgba(0, 0, 0, .25)
+		padding: 0
+		border-radius: 5px
+		margin: 0 60px
+		.form-group
+			margin: 0
+			.input-lg
+				height: 56px
+			.error
+				background: white
+				display: block
+		.left, .right
+			padding: 0
+			.form-control
+				border-radius: 0
+			.btn
+				border-radius: 0
+				height: 56px
+.grey
+	background: $grey
+.about
+	h2
+		text-align: center
+	blockquote
+		border: none
+		text-align: center
+		font-size: 22px
+		font-weight: 300
+
+.how-it-works
+	padding: 4em 0 6em
+	h2
+		margin-top: 0
+		padding: 0
+		font-size: 40px
+		margin-bottom: 50px
+	.bucket
+		padding: 0 30px
+		text-align: center
+		p
+			font-size: 16px
+			font-weight: 100
+		h3
+			font-size: 28px
+			margin: 0 0 20px
+			font-weight: 100
+		i
+			display: inline-block
+			margin: 0
+			width: 100px
+			height: 100px
+			border-radius: 50%
+			background-color: transparent
+			background-position: center center
+			background-size: 100px 100px
+			background-repeat: no-repeat
+			&.notification
+				background-image: url('../images/notification-icon.png')
+				background-size: 75px 75px
+			&.chart
+				background-image: url('../images/chart-icon.png')
+			&.invest
+				background-image: url('../images/piggy-icon.png')
+				// background-size: 70px 70px
+.features
+	padding: 4em 0
+	h2
+		font-size: 40px
+		margin-bottom: 50px
+	.bucket
+		margin-bottom: 60px
+	img
+		display: inline-block
+		border-radius: 50%
+		max-width: 80%
+		height: auto
+	h3
+		margin: 0
+		text-transform: uppercase
+		font-size: 20px
+		margin: 10px 0
+	p
+		font-size: 16px
+		font-weight: 100
+.testimonials
+	h2
+		font-size: 40px
+		margin-bottom: 50px
+	.bucket
+		text-align: center
+		padding: 0 30px
+		img
+			width: 120px
+			height: auto
+			margin-bottom: 15px
+		blockquote
+			border: none
+			text-align: center
+			font-style: italic
+			small
+				margin: 10px 0
+				font-size: 15px
+				font-style: normal
+.faq
+	h2
+		margin-bottom: 40px
+	// Accordions
+	.panel-group
+		.panel
+			border-radius: 2px
+			margin-bottom: 1em
+			box-shadow: none
+			border: none
+			.panel-heading
+				background: white
+				border: none
+				.panel-title
+					padding: 4px 0
+					a
+						font-size: 1em
+						line-height: 1.5
+						text-shadow: none
+						font-weight: normal
+						.glyphicon
+							color: #666
+							font-size: .75em
+							margin-right: 10px
+						.glyphicon-minus
+							display: inline-block
+						.glyphicon-plus
+							display: none
+						&.collapsed
+							.glyphicon-plus
+								display: inline-block
+							.glyphicon-minus
+								display: none
+			.panel-collapse
+				.panel-body
+					border-top: 1px dotted #efefef
+					background: white
+					font-size: 14px
+					line-height: 1.6
+					padding: 10px 15px 15px
+					text-shadow: none
+					color: $black
+					p
+						margin-bottom: 0
+						font-weight: normal
+						text-shadow: none
+
+				&.in
+					.panel-body
+						// border-top: 1px solid $ash
+.footer
+	margin: 0
+	background: $black
+	text-align: center
+	color: #999
+	border: none

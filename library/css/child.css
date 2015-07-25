@@ -1,0 +1,237 @@
+body {
+  font-size: 17px;
+  font-family: "source-sans-pro", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+  body h1, body h2, body h3, body h4 {
+    font-family: "source-sans-pro", sans-serif; }
+
+.btn-primary {
+  border: none; }
+
+.btn-lg {
+  padding: 11px 16px; }
+
+.btn-primary {
+  background: #46a30e; }
+
+section {
+  padding: 2em 0; }
+  section h2 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 100; }
+
+form .form-control {
+  border: none; }
+
+header .navbar {
+  border-radius: 0;
+  height: 60px;
+  background: transparent;
+  border: none;
+  transition: background 0.15s ease-in-out; }
+  header .navbar.dark {
+    background: rgba(0, 0, 0, 0.9); }
+    header .navbar.dark .navbar-collapse .navbar-nav li.signup a {
+      background: #46a30e; }
+  header .navbar .navbar-header .navbar-brand {
+    margin: 0 20px;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: white; }
+    header .navbar .navbar-header .navbar-brand i {
+      font-size: 0.75em; }
+  header .navbar .navbar-collapse .navbar-nav li a {
+    line-height: 60px;
+    font-size: 15px;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    display: block; }
+    header .navbar .navbar-collapse .navbar-nav li a:hover {
+      background: rgba(255, 255, 255, 0.05); }
+
+.hero {
+  padding: 4em 0;
+  height: 600px;
+  text-align: center; }
+  .hero .background {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 600px;
+    overflow: hidden;
+    min-width: 1045px;
+    background: url("../images/spacex.jpg") bottom center no-repeat;
+    background: url("../images/sandhill-blur.jpg") bottom center no-repeat;
+    background-size: cover;
+    background-position: fixed; }
+  .hero h1 {
+    font-size: 58px;
+    color: white;
+    margin: 110px 0 15px; }
+  .hero h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 28px;
+    margin: 0 0 50px; }
+  .hero form {
+    border: 8px solid rgba(0, 0, 0, 0.25);
+    padding: 0;
+    border-radius: 5px;
+    margin: 0 60px; }
+    .hero form .form-group {
+      margin: 0; }
+      .hero form .form-group .input-lg {
+        height: 56px; }
+      .hero form .form-group .error {
+        background: white;
+        display: block; }
+    .hero form .left, .hero form .right {
+      padding: 0; }
+      .hero form .left .form-control, .hero form .right .form-control {
+        border-radius: 0; }
+      .hero form .left .btn, .hero form .right .btn {
+        border-radius: 0;
+        height: 56px; }
+
+.grey {
+  background: #f6f6f8; }
+
+.about h2 {
+  text-align: center; }
+.about blockquote {
+  border: none;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300; }
+
+.how-it-works {
+  padding: 4em 0 6em; }
+  .how-it-works h2 {
+    margin-top: 0;
+    padding: 0;
+    font-size: 40px;
+    margin-bottom: 50px; }
+  .how-it-works .bucket {
+    padding: 0 30px;
+    text-align: center; }
+    .how-it-works .bucket p {
+      font-size: 16px;
+      font-weight: 100; }
+    .how-it-works .bucket h3 {
+      font-size: 28px;
+      margin: 0 0 20px;
+      font-weight: 100; }
+    .how-it-works .bucket i {
+      display: inline-block;
+      margin: 0;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: transparent;
+      background-position: center center;
+      background-size: 100px 100px;
+      background-repeat: no-repeat; }
+      .how-it-works .bucket i.notification {
+        background-image: url("../images/notification-icon.png");
+        background-size: 75px 75px; }
+      .how-it-works .bucket i.chart {
+        background-image: url("../images/chart-icon.png"); }
+      .how-it-works .bucket i.invest {
+        background-image: url("../images/piggy-icon.png"); }
+
+.features {
+  padding: 4em 0; }
+  .features h2 {
+    font-size: 40px;
+    margin-bottom: 50px; }
+  .features .bucket {
+    margin-bottom: 60px; }
+  .features img {
+    display: inline-block;
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto; }
+  .features h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0; }
+  .features p {
+    font-size: 16px;
+    font-weight: 100; }
+
+.testimonials h2 {
+  font-size: 40px;
+  margin-bottom: 50px; }
+.testimonials .bucket {
+  text-align: center;
+  padding: 0 30px; }
+  .testimonials .bucket img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px; }
+  .testimonials .bucket blockquote {
+    border: none;
+    text-align: center;
+    font-style: italic; }
+    .testimonials .bucket blockquote small {
+      margin: 10px 0;
+      font-size: 15px;
+      font-style: normal; }
+
+.faq h2 {
+  margin-bottom: 40px; }
+.faq .panel-group .panel {
+  border-radius: 2px;
+  margin-bottom: 1em;
+  box-shadow: none;
+  border: none; }
+  .faq .panel-group .panel .panel-heading {
+    background: white;
+    border: none; }
+    .faq .panel-group .panel .panel-heading .panel-title {
+      padding: 4px 0; }
+      .faq .panel-group .panel .panel-heading .panel-title a {
+        font-size: 1em;
+        line-height: 1.5;
+        text-shadow: none;
+        font-weight: normal; }
+        .faq .panel-group .panel .panel-heading .panel-title a .glyphicon {
+          color: #666;
+          font-size: 0.75em;
+          margin-right: 10px; }
+        .faq .panel-group .panel .panel-heading .panel-title a .glyphicon-minus {
+          display: inline-block; }
+        .faq .panel-group .panel .panel-heading .panel-title a .glyphicon-plus {
+          display: none; }
+        .faq .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-plus {
+          display: inline-block; }
+        .faq .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-minus {
+          display: none; }
+  .faq .panel-group .panel .panel-collapse .panel-body {
+    border-top: 1px dotted #efefef;
+    background: white;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 15px 15px;
+    text-shadow: none;
+    color: #212121; }
+    .faq .panel-group .panel .panel-collapse .panel-body p {
+      margin-bottom: 0;
+      font-weight: normal;
+      text-shadow: none; }
+
+.footer {
+  margin: 0;
+  background: #212121;
+  text-align: center;
+  color: #999;
+  border: none; }
