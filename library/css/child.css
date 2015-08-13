@@ -1,7 +1,8 @@
 body {
   font-size: 17px;
   font-family: "source-sans-pro", sans-serif;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  padding-top: 60px; }
   body h1, body h2, body h3, body h4 {
     font-family: "source-sans-pro", sans-serif; }
 
@@ -21,14 +22,32 @@ section {
     font-size: 32px;
     text-transform: uppercase;
     font-weight: 100; }
+  section h1 {
+    text-align: center;
+    font-weight: 100; }
+  section .card {
+    background: white; }
 
 form .form-control {
   border: none; }
 
+body.home {
+  padding-top: 0; }
+  body.home header .navbar {
+    border-radius: 0;
+    height: 60px;
+    background: transparent;
+    border: none;
+    transition: background 0.15s ease-in-out; }
+    body.home header .navbar.dark {
+      background: rgba(0, 0, 0, 0.9); }
+      body.home header .navbar.dark .navbar-collapse .navbar-nav li.signup a {
+        background: #46a30e; }
+
 header .navbar {
   border-radius: 0;
   height: 60px;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.9);
   border: none;
   transition: background 0.15s ease-in-out; }
   header .navbar.dark {
@@ -49,7 +68,7 @@ header .navbar {
     font-size: 15px;
     padding: 0 20px;
     font-size: 16px;
-    text-transform: uppercase;
+    text-transform: none;
     color: white;
     display: block; }
     header .navbar .navbar-collapse .navbar-nav li a:hover {
@@ -58,7 +77,11 @@ header .navbar {
 .hero {
   padding: 4em 0;
   height: 600px;
-  text-align: center; }
+  text-align: center;
+  opacity: 1;
+  transition: all 0.5s ease-in-out; }
+  .hero.active {
+    opacity: 100; }
   .hero .background {
     z-index: -1;
     position: absolute;
@@ -75,17 +98,31 @@ header .navbar {
   .hero h1 {
     font-size: 58px;
     color: white;
-    margin: 110px 0 15px; }
+    margin: 110px 0 15px;
+    opacity: 100;
+    transition: all 0.5s ease-in-out;
+    font-weight: normal; }
+    .hero h1.active {
+      opacity: 1; }
   .hero h2 {
     color: white;
     font-weight: 100;
     font-size: 28px;
-    margin: 0 0 50px; }
+    margin: 0 0 50px;
+    opacity: 100;
+    transition: all 0.5s ease-in-out;
+    text-transform: none; }
+    .hero h2.active {
+      opacity: 1; }
   .hero form {
     border: 8px solid rgba(0, 0, 0, 0.25);
     padding: 0;
     border-radius: 5px;
-    margin: 0 60px; }
+    margin: 0 60px;
+    opacity: 100;
+    transition: all 0.5s ease-in-out; }
+    .hero form.active {
+      opacity: 1; }
     .hero form .form-group {
       margin: 0; }
       .hero form .form-group .input-lg {
@@ -103,6 +140,12 @@ header .navbar {
 
 .grey {
   background: #f6f6f8; }
+
+.lightblue {
+  background: #56c1ec; }
+
+.red {
+  background: #f0707f; }
 
 .about h2 {
   text-align: center; }
@@ -148,16 +191,20 @@ header .navbar {
         background-image: url("../images/piggy-icon.png"); }
 
 .features {
-  padding: 4em 0; }
+  padding: 4em 0;
+  color: white; }
+  .features .cube {
+    max-width: 300px;
+    height: auto; }
   .features h2 {
     font-size: 40px;
     margin-bottom: 50px; }
   .features .bucket {
-    margin-bottom: 60px; }
-  .features img {
+    margin-bottom: 30px; }
+  .features .icon {
     display: inline-block;
     border-radius: 50%;
-    max-width: 80%;
+    max-width: 80px;
     height: auto; }
   .features h3 {
     margin: 0;
@@ -228,6 +275,55 @@ header .navbar {
       margin-bottom: 0;
       font-weight: normal;
       text-shadow: none; }
+
+.register .art {
+  min-height: 360px; }
+
+.deal header {
+  background-color: black;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  position: relative; }
+  .deal header .overlay {
+    min-height: 300px;
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  .deal header blockquote {
+    border: none;
+    color: white;
+    font-style: italic;
+    font-size: 22px; }
+    .deal header blockquote small {
+      display: inline-block; }
+  .deal header .navbar {
+    background: transparent; }
+    .deal header .navbar .navbar-header .company-logo {
+      padding: 15px;
+      display: inline-block; }
+      .deal header .navbar .navbar-header .company-logo img {
+        height: 24px;
+        width: auto; }
+    .deal header .navbar .navbar-collapse .btn-primary {
+      border-radius: 0;
+      padding: 12px 24px;
+      margin: 10px -5px 0 0;
+      line-height: 1; }
+      .deal header .navbar .navbar-collapse .btn-primary i {
+        vertical-align: middle;
+        font-size: 0.75em;
+        top: -2px;
+        margin: 0 4px 0 0; }
+.deal .inner {
+  padding: 30px; }
 
 .footer {
   margin: 0;

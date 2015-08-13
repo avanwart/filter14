@@ -42,6 +42,7 @@
 			<script>try{Typekit.load();}catch(e){}</script>
 
 			<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/child.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/chartist.css">
 
 		</head>
 

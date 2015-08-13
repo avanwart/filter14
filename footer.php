@@ -21,8 +21,6 @@
 		<!-- all js scripts are loaded in library/bones.php -->
 		<?php wp_footer(); ?>
 
-		<script src="<?php bloginfo('template_directory'); ?>/library/js/app.min.js"></script>
-
 	</body>
 
 </html> <!-- end page. what a ride! -->

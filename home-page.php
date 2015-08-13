@@ -17,10 +17,10 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<form action="" class="form-horizontal" id="signup">
+				<form method="post" action="<?php bloginfo('url'); ?>/register" class="form-horizontal" id="signup">
 					<div class="form-group">
 						<div class="col-lg-9 left">
-							<input type="email" id="email" class="required form-control input-lg" placeholder="Enter your email address">	
+							<input type="email" id="email" name="email" class="required form-control input-lg" placeholder="Enter your email address" value="">	
 						</div>
 						<div class="col-lg-3 right">
 							<button type="submit" class="btn btn-lg btn-primary btn-block">Sign Up</button>
@@ -67,7 +67,7 @@ Template Name: Home Page
 		</div> <!-- end .row-->
 	</div> <!-- end .container-->
 </section>
-<section class="features grey" id="why">
+<section class="features lightblue" id="why">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -75,49 +75,44 @@ Template Name: Home Page
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-5 col-md-offset-1 bucket">
-				<div class="row">
-					<div class="col-sm-4 text-right">
-						<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/library/images/cube-blue-icon.png" alt="">
+			<div class="col-sm-5 text-center">
+				<img class="cube" src="<?php bloginfo('template_directory'); ?>/library/images/cube.png" alt="">
+			</div>
+			<div class="col-sm-6">
+				<div class="row bucket">
+					<div class="col-sm-2">
+						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/cube-blue-icon.png" alt="">
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<h3>Curated Deals</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-5 bucket">
-				<div class="row">
-					<div class="col-sm-4 text-right">
-						<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/library/images/magnify-blue-icon.png" alt="">
+				<div class="row bucket">
+					<div class="col-sm-2">
+						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/magnify-blue-icon.png" alt="">
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<h3>Access to Metrics</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-5 col-md-offset-1 bucket">
-				<div class="row">
-					<div class="col-sm-4 text-right">
-						<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/library/images/gears-blue-icon.png" alt="">
+				<div class="row bucket">
+					<div class="col-sm-2">
+						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/gears-blue-icon.png" alt="">
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<h3>Live Forum</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-5 bucket">
-				<div class="row">
-					<div class="col-sm-4 text-right">
-						<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/library/images/laptop-blue-icon.png" alt="">
+				<div class="row bucket">
+					<div class="col-sm-2">
+						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/laptop-blue-icon.png" alt="">
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<h3>Subscriptions</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 					</div>
 				</div>
 			</div>

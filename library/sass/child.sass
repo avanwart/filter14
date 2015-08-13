@@ -6,6 +6,8 @@ $font: "source-sans-pro", sans-serif
 $black: #212121
 $green: #46a30e
 $grey: #f6f6f8
+$lightBlue: #56c1ec
+$red: #f0707f
 
 
 // General shit
@@ -14,6 +16,7 @@ body
 	font-size: 17px
 	font-family: $font
 	-webkit-font-smoothing: antialiased
+	padding-top: $navbarHeight
 	h1, h2, h3, h4
 		font-family: $font
 
@@ -34,16 +37,39 @@ section
 		font-size: 32px
 		text-transform: uppercase
 		font-weight: 100
+	h1
+		text-align: center
+		font-weight: 100
+	.card
+		background: white
+
 form
 	.form-control
 		border: none
 
 // top nav
+body.home
+	padding-top: 0
+	header
+		.navbar
+			border-radius: 0
+			height: $navbarHeight
+			background: transparent
+			border: none
+			transition: background .15s ease-in-out
+			&.dark
+				background: rgba(0, 0, 0, .9)
+				.navbar-collapse
+					.navbar-nav
+						li.signup
+							a
+								background: $green
+
 header
 	.navbar
 		border-radius: 0
 		height: $navbarHeight
-		background: transparent
+		background: rgba(0, 0, 0, .9)
 		border: none
 		transition: background .15s ease-in-out
 		&.dark
@@ -74,7 +100,7 @@ header
 						font-size: 15px
 						padding: 0 20px
 						font-size: 16px
-						text-transform: uppercase
+						text-transform: none
 						color: white
 						display: block
 						&:hover
@@ -88,6 +114,10 @@ header
 	// background-size: cover
 	height: 600px
 	text-align: center
+	opacity: 1
+	transition: all .5s ease-in-out
+	&.active
+		opacity: 100
 	.background
 		z-index: -1
 		position: absolute
@@ -105,16 +135,30 @@ header
 		font-size: 58px
 		color: white
 		margin: 110px 0 15px
+		opacity: 100
+		transition: all .5s ease-in-out
+		font-weight: normal
+		&.active
+			opacity: 1
 	h2
 		color: white
 		font-weight: 100
 		font-size: 28px
 		margin: 0 0 50px
+		opacity: 100
+		transition: all .5s ease-in-out
+		text-transform: none
+		&.active
+			opacity: 1
 	form
 		border: 8px solid rgba(0, 0, 0, .25)
 		padding: 0
 		border-radius: 5px
 		margin: 0 60px
+		opacity: 100
+		transition: all .5s ease-in-out
+		&.active
+			opacity: 1
 		.form-group
 			margin: 0
 			.input-lg
@@ -131,6 +175,10 @@ header
 				height: 56px
 .grey
 	background: $grey
+.lightblue
+	background: $lightBlue
+.red
+	background: $red
 .about
 	h2
 		text-align: center
@@ -177,15 +225,19 @@ header
 				// background-size: 70px 70px
 .features
 	padding: 4em 0
+	color: white
+	.cube
+		max-width: 300px
+		height: auto
 	h2
 		font-size: 40px
 		margin-bottom: 50px
 	.bucket
-		margin-bottom: 60px
-	img
+		margin-bottom: 30px
+	.icon
 		display: inline-block
 		border-radius: 50%
-		max-width: 80%
+		max-width: 80px
 		height: auto
 	h3
 		margin: 0
@@ -264,6 +316,58 @@ header
 				&.in
 					.panel-body
 						// border-top: 1px solid $ash
+.register
+	.art
+		min-height: 360px
+.deal
+	header
+		background-color: black
+		background-position: 50% 50%
+		background-repeat: no-repeat
+		background-size: cover
+		min-height: 300px
+		position: relative
+		.overlay
+			min-height: 300px
+			width: 100%
+			display: block
+			background: rgba(0, 0, 0, .5)
+			position: absolute
+			z-index: 0
+			left: 0
+			right: 0
+			top: 0
+			bottom: 0
+		blockquote
+			border: none
+			color: white
+			font-style: italic
+			font-size: 22px
+			small
+				display: inline-block
+
+		.navbar
+			background: transparent
+			.navbar-header
+				.company-logo 
+					padding: 15px
+					display: inline-block
+					img
+						height: 24px
+						width: auto
+			.navbar-collapse
+				.btn-primary
+					border-radius: 0
+					padding: 12px 24px
+					margin: 10px -5px 0 0
+					line-height: 1
+					i
+						vertical-align: middle
+						font-size: .75em
+						top: -2px
+						margin: 0 4px 0 0
+	.inner
+		padding: 30px
 .footer
 	margin: 0
 	background: $black
