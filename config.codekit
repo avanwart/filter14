@@ -3171,6 +3171,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/practice-fusion-logo-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8344,
+		"inputAbbreviatedPath": "\/library\/images\/practice-fusion-logo-color.png",
+		"outputAbbreviatedPath": "\/library\/images\/practice-fusion-logo-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/practice-fusion-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

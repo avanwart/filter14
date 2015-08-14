@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-	$('.scroll a').smoothScroll({
+	$('.scroll a, a.scroll').smoothScroll({
 		offset: -60
 	});
 

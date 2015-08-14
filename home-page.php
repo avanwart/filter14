@@ -178,7 +178,7 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-
+<script src="<?php bloginfo('template_directory'); ?>/library/js/app.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 

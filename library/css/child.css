@@ -6,14 +6,43 @@ body {
   body h1, body h2, body h3, body h4 {
     font-family: "source-sans-pro", sans-serif; }
 
+.tight {
+  padding: 0; }
+
+.tight-left {
+  padding-left: 0 !important; }
+
+.tight-right {
+  padding-right: 0 !important; }
+
 .btn-primary {
   border: none; }
+
+.btn {
+  border-radius: 0; }
+  .btn i {
+    font-size: 0.6em;
+    top: 0; }
 
 .btn-lg {
   padding: 11px 16px; }
 
 .btn-primary {
   background: #46a30e; }
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 50.05%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+  .video-wrapper iframe {
+    border: 6px solid #efefef;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 section {
   padding: 2em 0; }
@@ -25,8 +54,9 @@ section {
   section h1 {
     text-align: center;
     font-weight: 100; }
-  section .card {
-    background: white; }
+  section .card, section .white {
+    background: white;
+    border: 1px solid #f0f0f0; }
 
 form .form-control {
   border: none; }
@@ -280,14 +310,13 @@ header .navbar {
   min-height: 360px; }
 
 .deal header {
-  background-color: black;
+  background-color: transparent;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
   position: relative; }
   .deal header .overlay {
-    min-height: 300px;
+    height: 100%;
     width: 100%;
     display: block;
     background: rgba(0, 0, 0, 0.5);
@@ -299,31 +328,67 @@ header .navbar {
     bottom: 0; }
   .deal header blockquote {
     border: none;
-    color: white;
+    color: #444;
     font-style: italic;
-    font-size: 22px; }
+    font-size: 18px;
+    padding: 0; }
     .deal header blockquote small {
       display: inline-block; }
   .deal header .navbar {
-    background: transparent; }
-    .deal header .navbar .navbar-header .company-logo {
-      padding: 15px;
-      display: inline-block; }
-      .deal header .navbar .navbar-header .company-logo img {
-        height: 24px;
-        width: auto; }
-    .deal header .navbar .navbar-collapse .btn-primary {
+    background: transparent;
+    margin: 0 0 20px; }
+    .deal header .navbar .navbar-header {
+      text-align: center; }
+      .deal header .navbar .navbar-header .company-logo {
+        padding: 15px;
+        display: inline-block; }
+        .deal header .navbar .navbar-header .company-logo img {
+          height: 25px;
+          width: auto;
+          margin-bottom: -2px; }
+    .deal header .navbar .navbar-collapse .navbar-nav li a {
+      font-size: 14px;
+      color: #212121; }
+      .deal header .navbar .navbar-collapse .navbar-nav li a:hover {
+        color: #56c1ec; }
+      .deal header .navbar .navbar-collapse .navbar-nav li a.btn {
+        border-color: #efefef; }
+    .deal header .navbar .navbar-collapse .btn-primary, .deal header .navbar .navbar-collapse .btn-default {
       border-radius: 0;
       padding: 12px 24px;
       margin: 10px -5px 0 0;
       line-height: 1; }
-      .deal header .navbar .navbar-collapse .btn-primary i {
+      .deal header .navbar .navbar-collapse .btn-primary i, .deal header .navbar .navbar-collapse .btn-default i {
         vertical-align: middle;
         font-size: 0.75em;
         top: -2px;
         margin: 0 4px 0 0; }
+.deal .quote {
+  padding: 1em 0;
+  background: #efefef;
+  text-align: center; }
+  .deal .quote blockquote {
+    font-style: italic;
+    font-size: 22px;
+    border: none;
+    padding: 0;
+    margin: 0; }
+    .deal .quote blockquote small {
+      display: inline-block; }
+.deal .mission {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 1.5; }
 .deal .inner {
-  padding: 30px; }
+  padding: 10px 15px 30px; }
+.deal h2, .deal h3, .deal h4 {
+  font-size: 22px;
+  text-transform: none;
+  font-weight: 100; }
+.deal .comments {
+  background: #dadada;
+  margin: 15px 15px 0; }
 
 .footer {
   margin: 0;
