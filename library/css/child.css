@@ -475,6 +475,7 @@ header .navbar {
       font-size: 0.75em;
       margin-right: 5px; }
   .deal .tab-content .tab-pane h3 {
+    font-size: 28px;
     margin-bottom: 30px; }
   .deal .tab-content .tab-pane ul {
     list-style-type: circle; }
@@ -497,6 +498,12 @@ header .navbar {
     padding: 0 10px; }
     .deal .tab-content .tab-pane .leader img {
       margin-bottom: 0; }
+    .deal .tab-content .tab-pane .leader p {
+      font-weight: 100;
+      margin-bottom: 20px; }
+    .deal .tab-content .tab-pane .leader .linkedin .btn-default {
+      font-size: 12px;
+      font-weight: 100; }
   .deal .tab-content .tab-pane p {
     font-size: 14px;
     text-align: left; }

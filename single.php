@@ -63,7 +63,7 @@
 						</div>
 					</div>
 				</section>
-				<div class="inner" id="data">
+				<section class="data" id="data">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 text-center">
@@ -119,8 +119,8 @@
 											</table>
 											<div class="text-center"><a href="#" class="btn btn-lg btn-default"><i class="glyphicon glyphicon-download-alt"></i>Download Financial Report</a></div>
 										</div>
-										<div class="col-sm-6">
-											<h2>Subscriber Growth</h2>
+										<div class="col-sm-6 text-center">
+											<h3>Subscriber Growth</h3>
 											<div class="ct-chart ct-perfect-fourth" id="growth"></div>
 											<script>
 												jQuery(document).ready(function($){
@@ -403,8 +403,7 @@
 						  </div>
 						</div>
 					</div>
-					
-				</div>
+				</section><!-- end of data section -->
 				<div class="row" id="comments">
 					<div class="inner comments">
 						<div class="col-sm-12">
