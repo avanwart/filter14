@@ -173,7 +173,7 @@ body.home
 		.navbar
 			border-radius: 0
 			height: $navbarHeight
-			background: transparent
+			//background: transparent
 			border: none
 			transition: background .15s ease-in-out
 			&.dark
@@ -215,6 +215,7 @@ header
 			.navbar-nav
 				li
 					a
+						transition: background .4s ease-in-out
 						line-height: $navbarHeight
 						font-size: 15px
 						padding: 0 20px
@@ -344,33 +345,52 @@ header
 				background-size: 75px 75px
 			&.chart
 				background-image: url('../images/chart-icon.png')
+			&.pitch
+				background-image: url('../images/pitch-icon.jpg')
 			&.invest
 				background-image: url('../images/piggy-icon.png')
 				// background-size: 70px 70px
 .features
 	padding: 4em 0
 	color: white
-	.cube
-		max-width: 300px
-		height: auto
+	background: url('../images/sf-financial.jpg') 50% 50% no-repeat
+	background-size: cover
+	// .cube
+	// 	max-width: 300px
+	// 	height: auto
 	h2
 		font-size: 40px
 		margin-bottom: 50px
+		color: white
+		font-weight: 100
 	.bucket
 		margin-bottom: 30px
-	.icon
+	.circle
 		display: inline-block
-		border-radius: 50%
+		padding: 20px
 		max-width: 80px
+		border: 1px solid white
+		border-radius: 50%
+		background: rgba(0, 0, 0, .05)
+	.icon
+		display: block
 		height: auto
+		max-width: 100%
 	h3
 		margin: 0
 		text-transform: uppercase
 		font-size: 20px
 		margin: 10px 0
-	p
-		font-size: 16px
+		color: white
 		font-weight: 100
+	p
+		font-size: 18px
+		font-weight: 100
+		color: white
+		font-weight: 100
+		margin-bottom: 4em
+		max-width: 75%
+		display: inline-block
 .testimonials
 	h2
 		font-size: 40px
@@ -478,8 +498,9 @@ header
 						top: -2px
 						margin: 0 4px 0 0
 	.intro
-		.btn-default
+		.btn-default, .btn-primary
 			font-size: 16px
+			padding: 14px 0
 	.quote
 		padding: 1.5em 0
 		background: #efefef

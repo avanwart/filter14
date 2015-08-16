@@ -36,7 +36,7 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-sm-12 col-md-10 col-md-offset-1">
 				<h2>Pitches Without Board Rooms</h2>
-				<blockquote>It's Monday morning, but instead of heading out to pound the pavement on Sand Hill Road, this entrepreneur is getting ready to mic up and pitch you, online, through Filter14.</blockquote>
+				<blockquote>Filter14 provides exclusive investor access to companies that exhibit enormous potential.<br>You are invited to each and every pitch, and you can invest as little or as much as you want.</blockquote>
 			</div>
 		</div>
 	</div>
@@ -55,9 +55,9 @@ Template Name: Home Page
 				<p>Each month, a round opens up for a company that we've identified as a rising star in the tech industry using our unique algorithms.</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-sm-4 bucket">
-				<i class="chart"></i>
-				<h3>Examine the Pitch</h3>
-				<p>Once a deal goes live you can analyze KPIs, learn more about the company and ask questions directly on the deal page.</p>
+				<i class="pitch"></i>
+				<h3>Examine Metrics</h3>
+				<p>Once a deal goes live you can analyze KPIs, learn more about the company, even ask the CEO questions directly.</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-sm-4 bucket">
 				<i class="invest"></i>
@@ -75,46 +75,27 @@ Template Name: Home Page
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-5 text-center">
-				<img class="cube" src="<?php bloginfo('template_directory'); ?>/library/images/cube.png" alt="">
+			<div class="col-sm-5 col-sm-offset-1 text-center">
+				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/chair-icon.png" alt=""></div>
+				<h3>Curated Deals</h3>
+				<p>Our rounds are focused on top-performing companies that we think will be profitable.</p>
 			</div>
-			<div class="col-sm-6">
-				<div class="row bucket">
-					<div class="col-sm-2">
-						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/cube-blue-icon.png" alt="">
-					</div>
-					<div class="col-sm-9">
-						<h3>Curated Deals</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					</div>
-				</div>
-				<div class="row bucket">
-					<div class="col-sm-2">
-						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/magnify-blue-icon.png" alt="">
-					</div>
-					<div class="col-sm-9">
-						<h3>Access to Metrics</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					</div>
-				</div>
-				<div class="row bucket">
-					<div class="col-sm-2">
-						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/gears-blue-icon.png" alt="">
-					</div>
-					<div class="col-sm-9">
-						<h3>Live Forum</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					</div>
-				</div>
-				<div class="row bucket">
-					<div class="col-sm-2">
-						<img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/laptop-blue-icon.png" alt="">
-					</div>
-					<div class="col-sm-9">
-						<h3>Subscriptions</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					</div>
-				</div>
+			<div class="col-sm-5 text-center">
+				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/line-chart-icon.png" alt=""></div>
+				<h3>Access to Metrics</h3>
+				<p>We believe that when you see the data, you'll understand why we selected each company.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-1 text-center">
+				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/forum-icon.png" alt=""></div>
+				<h3>Live Forum</h3>
+				<p>Questions for the CEO?  No problem.  You can ask questions directly on the deal page.</p>
+			</div>
+			<div class="col-sm-5 text-center">
+				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/gears-icon.png" alt=""></div>
+				<h3>Subscriptions</h3>
+				<p>You can even subscribe to each deal and include yourself in every round we raise.</p>
 			</div>
 		</div>
 	</div>
@@ -129,11 +110,11 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-md-5 col-md-offset-1 bucket">
 				<img class="img-circle" src="<?php bloginfo('template_directory'); ?>/library/images/headshot.jpg" alt="">
-				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, delectus dignissimos ratione debitis doloremque. <small>Ryan Adams, Yahoo</small></blockquote>
+				<blockquote>&ldquo;Every investor from Seattle to Shanghai is going to want to be a part of what Filter14 has created.&rdquo; <small>Peter Thiel</small></blockquote>
 			</div>
 			<div class="col-md-5 bucket">
-				<img class="img-circle" src="<?php bloginfo('template_directory'); ?>/library/images/headshot.jpg" alt="">
-				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, delectus dignissimos ratione debitis doloremque. <small>Ryan Adams, Yahoo</small></blockquote>
+				<img class="img-circle" src="<?php bloginfo('template_directory'); ?>/library/images/marc-andreesen.jpg" alt="">
+				<blockquote>&ldquo;Filter14 has completely disrupted the venture capitalism space. I'm validating less parking now.&rdquo;<small>Marc Andreessen</small></blockquote>
 			</div>
 		</div>
 	</div>

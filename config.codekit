@@ -2929,6 +2929,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/chair-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3587,
+		"inputAbbreviatedPath": "\/library\/images\/chair-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/chair-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/chart-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3039,6 +3050,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/forum-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4333,
+		"inputAbbreviatedPath": "\/library\/images\/forum-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/forum-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/gears-blue-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3046,6 +3068,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/library\/images\/gears-blue-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/gears-blue-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/gears-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5648,
+		"inputAbbreviatedPath": "\/library\/images\/gears-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/gears-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3068,6 +3101,17 @@
 		"initialSize": 13868,
 		"inputAbbreviatedPath": "\/library\/images\/headshot.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/highway-280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78997,
+		"inputAbbreviatedPath": "\/library\/images\/highway-280.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/highway-280.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3105,6 +3149,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/line-chart-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3183,
+		"inputAbbreviatedPath": "\/library\/images\/line-chart-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/line-chart-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/linkedin-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3134,6 +3189,17 @@
 		"initialSize": 51332,
 		"inputAbbreviatedPath": "\/library\/images\/magnify-blue-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/magnify-blue-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/marc-andreesen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16532,
+		"inputAbbreviatedPath": "\/library\/images\/marc-andreesen.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/marc-andreesen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3171,6 +3237,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/pie-chart-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3788,
+		"inputAbbreviatedPath": "\/library\/images\/pie-chart-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/pie-chart-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/piggy-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3178,6 +3255,17 @@
 		"initialSize": 4772,
 		"inputAbbreviatedPath": "\/library\/images\/piggy-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/piggy-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/pitch-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7576,
+		"inputAbbreviatedPath": "\/library\/images\/pitch-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/pitch-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3277,6 +3365,17 @@
 		"initialSize": 48060,
 		"inputAbbreviatedPath": "\/library\/images\/sandhill-blur.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/sandhill-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/sf-financial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133268,
+		"inputAbbreviatedPath": "\/library\/images\/sf-financial.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/sf-financial.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

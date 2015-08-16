@@ -50,7 +50,7 @@
 							<div class="col-sm-5">
 								<h2 class="mission">The #1 cloud-based electronic health record platform for doctors and patients</h2>
 								<div class="text-center">
-									<a href="#invest" class="btn btn-lg btn-primary btn-block">Invest Now <i class="glyphicon glyphicon-chevron-right"></i></a> <a href="#data" class="scroll btn btn-lg btn-default btn-block">View Company Data <i class="glyphicon glyphicon-chevron-right"></i></a>
+									<a href="#invest" class="btn btn-lg btn-primary btn-block">Invest Now <i class="glyphicon glyphicon-chevron-right"></i></a> <a href="#data" class="scroll btn btn-lg btn-default btn-block">Explore the Company <i class="glyphicon glyphicon-chevron-right"></i></a>
 								</div>
 							</div>
 						</div>
