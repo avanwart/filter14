@@ -24,6 +24,12 @@ body {
     font-size: 0.6em;
     top: 0; }
 
+.btn-default {
+  border: 1px solid #dadada;
+  background-image: -webkit-linear-gradient(#fff, #efefef);
+  background-image: -o-linear-gradient(#fff, #efefef);
+  background-image: linear-gradient(#fff, #efefef); }
+
 .btn-lg {
   padding: 11px 16px; }
 
@@ -44,6 +50,88 @@ body {
     width: 100%;
     height: 100%; }
 
+.glyphicon-ok {
+  color: #46a30e; }
+
+.glyphicon-remove {
+  color: #f0707f; }
+
+.tabbable {
+  margin: 0 0 3em;
+  padding: 0 5px; }
+
+.nav-tabs li {
+  width: 24%;
+  margin: 0 0 -1px 0;
+  display: inline-block; }
+  .nav-tabs li.two, .nav-tabs li.three {
+    margin-left: 2px; }
+  .nav-tabs li.active a {
+    background: white; }
+  .nav-tabs li a {
+    background: #f9f9f9;
+    border: 1px solid #dadada;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #212121; }
+
+.panel-group .panel {
+  border-radius: 2px;
+  margin-bottom: 1em;
+  box-shadow: none;
+  border: none; }
+  .panel-group .panel .panel-heading {
+    background: white;
+    border: none; }
+    .panel-group .panel .panel-heading .panel-title {
+      padding: 4px 0; }
+      .panel-group .panel .panel-heading .panel-title a {
+        font-size: 1em;
+        line-height: 1.5;
+        text-shadow: none;
+        font-weight: normal; }
+        .panel-group .panel .panel-heading .panel-title a .glyphicon {
+          color: #666;
+          font-size: 0.75em;
+          margin-right: 10px; }
+        .panel-group .panel .panel-heading .panel-title a .glyphicon-minus {
+          display: inline-block; }
+        .panel-group .panel .panel-heading .panel-title a .glyphicon-plus {
+          display: none; }
+        .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-plus {
+          display: inline-block; }
+        .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-minus {
+          display: none; }
+  .panel-group .panel .panel-collapse .panel-body {
+    border-top: 1px dotted #efefef;
+    background: white;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 15px 15px;
+    text-shadow: none;
+    color: #212121; }
+    .panel-group .panel .panel-collapse .panel-body p {
+      margin-bottom: 0;
+      font-weight: normal;
+      text-shadow: none; }
+
+.linkedin {
+  text-align: right;
+  font-size: 14px; }
+  .linkedin .btn-default {
+    font-size: 12px; }
+  .linkedin img {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    margin-bottom: 2px; }
+
 section {
   padding: 2em 0; }
   section h2 {
@@ -56,7 +144,7 @@ section {
     font-weight: 100; }
   section .card, section .white {
     background: white;
-    border: 1px solid #f0f0f0; }
+    border: 1px solid #efefef; }
 
 form .form-control {
   border: none; }
@@ -103,6 +191,11 @@ header .navbar {
     display: block; }
     header .navbar .navbar-collapse .navbar-nav li a:hover {
       background: rgba(255, 255, 255, 0.05); }
+  header .navbar.secondary {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0; }
 
 .hero {
   padding: 4em 0;
@@ -169,7 +262,7 @@ header .navbar {
         height: 56px; }
 
 .grey {
-  background: #f6f6f8; }
+  background: #f6f6f6; }
 
 .lightblue {
   background: #56c1ec; }
@@ -266,50 +359,12 @@ header .navbar {
 
 .faq h2 {
   margin-bottom: 40px; }
-.faq .panel-group .panel {
-  border-radius: 2px;
-  margin-bottom: 1em;
-  box-shadow: none;
-  border: none; }
-  .faq .panel-group .panel .panel-heading {
-    background: white;
-    border: none; }
-    .faq .panel-group .panel .panel-heading .panel-title {
-      padding: 4px 0; }
-      .faq .panel-group .panel .panel-heading .panel-title a {
-        font-size: 1em;
-        line-height: 1.5;
-        text-shadow: none;
-        font-weight: normal; }
-        .faq .panel-group .panel .panel-heading .panel-title a .glyphicon {
-          color: #666;
-          font-size: 0.75em;
-          margin-right: 10px; }
-        .faq .panel-group .panel .panel-heading .panel-title a .glyphicon-minus {
-          display: inline-block; }
-        .faq .panel-group .panel .panel-heading .panel-title a .glyphicon-plus {
-          display: none; }
-        .faq .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-plus {
-          display: inline-block; }
-        .faq .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-minus {
-          display: none; }
-  .faq .panel-group .panel .panel-collapse .panel-body {
-    border-top: 1px dotted #efefef;
-    background: white;
-    font-size: 14px;
-    line-height: 1.6;
-    padding: 10px 15px 15px;
-    text-shadow: none;
-    color: #212121; }
-    .faq .panel-group .panel .panel-collapse .panel-body p {
-      margin-bottom: 0;
-      font-weight: normal;
-      text-shadow: none; }
 
 .register .art {
   min-height: 360px; }
 
 .deal header {
+  padding-top: 0px;
   background-color: transparent;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -326,20 +381,16 @@ header .navbar {
     right: 0;
     top: 0;
     bottom: 0; }
-  .deal header blockquote {
-    border: none;
-    color: #444;
-    font-style: italic;
-    font-size: 18px;
-    padding: 0; }
-    .deal header blockquote small {
-      display: inline-block; }
   .deal header .navbar {
-    background: transparent;
-    margin: 0 0 20px; }
+    background: rgba(0, 0, 0, 0.02);
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+    margin: 0;
+    position: relative;
+    top: 0; }
     .deal header .navbar .navbar-header {
       text-align: center; }
       .deal header .navbar .navbar-header .company-logo {
+        margin-left: 0px;
         padding: 15px;
         display: inline-block; }
         .deal header .navbar .navbar-header .company-logo img {
@@ -348,9 +399,16 @@ header .navbar {
           margin-bottom: -2px; }
     .deal header .navbar .navbar-collapse .navbar-nav li a {
       font-size: 14px;
-      color: #212121; }
+      color: #212121;
+      border-left: 1px dotted #dadada;
+      line-height: 59px; }
+      .deal header .navbar .navbar-collapse .navbar-nav li a .glyphicon {
+        font-size: 0.75em;
+        top: 1px; }
       .deal header .navbar .navbar-collapse .navbar-nav li a:hover {
-        color: #56c1ec; }
+        color: #56c1ec;
+        background: white;
+        border-bottom: 1px dotted #dadada; }
       .deal header .navbar .navbar-collapse .navbar-nav li a.btn {
         border-color: #efefef; }
     .deal header .navbar .navbar-collapse .btn-primary, .deal header .navbar .navbar-collapse .btn-default {
@@ -363,31 +421,96 @@ header .navbar {
         font-size: 0.75em;
         top: -2px;
         margin: 0 4px 0 0; }
+.deal .intro .btn-default {
+  font-size: 16px; }
 .deal .quote {
-  padding: 1em 0;
+  padding: 1.5em 0;
   background: #efefef;
   text-align: center; }
   .deal .quote blockquote {
     font-style: italic;
-    font-size: 22px;
+    font-size: 18px;
     border: none;
     padding: 0;
     margin: 0; }
     .deal .quote blockquote small {
+      font-size: 18px;
       display: inline-block; }
+.deal .btn-primary {
+  margin-bottom: 10px; }
 .deal .mission {
   text-align: left;
-  font-size: 24px;
-  margin-bottom: 30px;
-  line-height: 1.5; }
+  font-size: 26px;
+  margin: 0px 0 30px;
+  line-height: 1.6; }
 .deal .inner {
-  padding: 10px 15px 30px; }
+  padding: 1em 15px 30px; }
+  .deal .inner.flat {
+    padding-top: 0; }
+.deal .table {
+  margin-top: 30px; }
+  .deal .table tbody > tr > td {
+    border: none;
+    border-bottom: 1px dotted #dadada; }
+  .deal .table tbody > tr.last > td {
+    border: none; }
+  .deal .table thead td {
+    text-decoration: underline; }
+  .deal .table .value {
+    font-weight: bold; }
+  .deal .table td {
+    font-weight: 100; }
+.deal h1 {
+  margin-bottom: 40px; }
 .deal h2, .deal h3, .deal h4 {
   font-size: 22px;
   text-transform: none;
   font-weight: 100; }
+.deal .tab-content .tab-pane {
+  padding: 1.5em 30px; }
+  .deal .tab-content .tab-pane .btn-primary, .deal .tab-content .tab-pane .btn-default {
+    font-weight: 100;
+    font-size: 16px; }
+    .deal .tab-content .tab-pane .btn-primary i.glyphicon, .deal .tab-content .tab-pane .btn-default i.glyphicon {
+      font-size: 0.75em;
+      margin-right: 5px; }
+  .deal .tab-content .tab-pane h3 {
+    margin-bottom: 30px; }
+  .deal .tab-content .tab-pane ul {
+    list-style-type: circle; }
+    .deal .tab-content .tab-pane ul li {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: #dadada; }
+  .deal .tab-content .tab-pane strong {
+    display: inline-block;
+    text-align: center;
+    color: #f0707f;
+    font-weight: normal; }
+  .deal .tab-content .tab-pane em {
+    font-weight: 100;
+    text-align: center;
+    font-style: normal;
+    color: #212121;
+    font-size: 24px; }
+  .deal .tab-content .tab-pane .leader {
+    padding: 0 10px; }
+    .deal .tab-content .tab-pane .leader img {
+      margin-bottom: 0; }
+  .deal .tab-content .tab-pane p {
+    font-size: 14px;
+    text-align: left; }
+  .deal .tab-content .tab-pane h4 {
+    line-height: 1.6;
+    text-align: left; }
+    .deal .tab-content .tab-pane h4 small {
+      display: block; }
+  .deal .tab-content .tab-pane .img-thumbnail {
+    display: inline-block;
+    max-width: 60%;
+    height: auto; }
 .deal .comments {
-  background: #dadada;
+  background: rgba(0, 0, 0, 0.02);
   margin: 15px 15px 0; }
 
 .footer {

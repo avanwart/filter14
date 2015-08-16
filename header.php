@@ -53,7 +53,7 @@
 				<header class="header" role="banner">
 
 					<nav role="navigation">
-						<div class="navbar navbar-inverse navbar-fixed-top">
+						<div class="navbar navbar-inverse navbar-fixed-top" id="primary-nav">
 							<div class="container">
 								<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 								<div class="navbar-header">

@@ -3083,6 +3083,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/jonathan-malek.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17880,
+		"inputAbbreviatedPath": "\/library\/images\/jonathan-malek.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/jonathan-malek.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/laptop-blue-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3090,6 +3101,17 @@
 		"initialSize": 23378,
 		"inputAbbreviatedPath": "\/library\/images\/laptop-blue-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/laptop-blue-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/linkedin-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1854,
+		"inputAbbreviatedPath": "\/library\/images\/linkedin-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/linkedin-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3112,6 +3134,17 @@
 		"initialSize": 51332,
 		"inputAbbreviatedPath": "\/library\/images\/magnify-blue-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/magnify-blue-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/matt-douglass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61710,
+		"inputAbbreviatedPath": "\/library\/images\/matt-douglass.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/matt-douglass.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3226,6 +3259,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/ryan-howard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23280,
+		"inputAbbreviatedPath": "\/library\/images\/ryan-howard.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/ryan-howard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/sandhill-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3255,6 +3299,17 @@
 		"initialSize": 14438,
 		"inputAbbreviatedPath": "\/library\/images\/subscribe-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/subscribe-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/todd-martin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15421,
+		"inputAbbreviatedPath": "\/library\/images\/todd-martin.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/todd-martin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
