@@ -201,7 +201,7 @@ header .navbar {
   padding: 4em 0;
   height: 600px;
   text-align: center;
-  opacity: 1;
+  opacity: 0;
   transition: all 0.5s ease-in-out; }
   .hero.active {
     opacity: 100; }

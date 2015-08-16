@@ -163,6 +163,8 @@ Template Name: Home Page
 <script>
 	jQuery(document).ready(function($){
 
+		$('.hero').addClass('active');
+
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 
