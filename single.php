@@ -259,7 +259,7 @@
 					    	</div>
 					    	<div role="tabpanel" class="tab-pane product" id="product">
 									<div class="row">
-										<div class="col-sm-6">
+										<div class="col-sm-5">
 											<h3 class="text-center">Product</h3>
 												<ul>
 													<li><strong>70,000+</strong> <em>Pharmacies</em></li>
@@ -269,13 +269,13 @@
 												</ul>
 												
 										</div>
-										<div class="col-sm-6">
+										<div class="col-sm-7">
 											<h3 class="text-center">Competitor Matrix</h3>
 											<table class="table">
 												<thead>
 													<tr>
 														<td>&nbsp;</td>
-														<td>Company A</td>
+														<td>Practice Fusion</td>
 														<td>Company B</td>
 														<td>Company C</td>
 													</tr>
@@ -283,27 +283,27 @@
 												<tbody>
 													<tr>
 														<td>Feature A</td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
-														<td><i class="glyphicon glyphicon-remove"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-remove"></i></td>
 													</tr>
 													<tr>
 														<td>Feature B</td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
-														<td><i class="glyphicon glyphicon-remove"></i></td>
-														<td><i class="glyphicon glyphicon-remove"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-remove"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-remove"></i></td>
 													</tr>
 													<tr>
 														<td>Feature C</td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
-														<td><i class="glyphicon glyphicon-remove"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-remove"></i></td>
 													</tr>
 													<tr>
 														<td>Feature D</td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
-														<td><i class="glyphicon glyphicon-remove"></i></td>
-														<td><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-remove"></i></td>
+														<td class="text-center"><i class="glyphicon glyphicon-ok"></i></td>
 													</tr>
 												</tbody>
 											</table>
@@ -376,21 +376,21 @@
 										<div class="col-sm-4 leader">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/ryan-howard.jpg" class="img-thumbnail" alt="">
 											<h4>Ryan Howard <small>Founder, CEO</small> </h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga quaerat, quod numquam accusantium, facere cupiditate dolore cumque ab natus voluptatem sequi perferendis qui.</p>
+											<p>Ryan is the founder and Chairman of the Board of Practice Fusion. He founded the company in 2005 and has grown it into the largest physician-patient community in the US. Serving over 80 million patients, the platform connects doctors, pharmacies, labs, and imaging centers to solve healthcare’s biggest challenges.</p>
 											<p class="linkedin">
 											<a class="btn btn-default" href="https://www.linkedin.com/in/sedmondson" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/library/images/linkedin-icon.jpg" class="linkedin"> Ryan Howard on LinkedIn</a></p>
 										</div>
 										<div class="col-sm-4 leader">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/matt-douglass.jpg" class="img-thumbnail" alt="">
 											<h4>Matthew Douglas <small>Co-founder, Vice President</small> </h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati ut animi minus nihil, optio repudiandae magnam numquam similique magni consectetur laborum sit quia.</p>
+											<p>As Practice Fusion’s technology co-founder, Matt created the SaaS technology framework that enables rapid development of the electronic health record’s nationwide platform, now used daily by over 100,000 medical professionals.</p>
 											<p class="linkedin">
 											<a class="btn btn-default" href="https://www.linkedin.com/in/sedmondson" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/library/images/linkedin-icon.jpg" class="linkedin"> Matthew Douglass on LinkedIn</a></p>
 										</div>
 										<div class="col-sm-4 leader">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/jonathan-malek.jpg" class="img-thumbnail" alt="">
 											<h4>Jonathan Malek <small>Co-founder, CTO</small> </h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aut saepe veritatis eligendi ducimus quod temporibus cupiditate nulla dicta quidem, impedit earum placeat</p>
+											<p>Jonathan leads Practice Fusion’s technology strategy, ensuring IT architecture remains scalable and reliable while pursuing new directions in areas such as mobile connectivity and API integration. </p>
 											<p class="linkedin">
 											<a class="btn btn-default" href="https://www.linkedin.com/in/sedmondson" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/library/images/linkedin-icon.jpg" class="linkedin"> Jonathan Malek on LinkedIn</a></p>
 										</div>

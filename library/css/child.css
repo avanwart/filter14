@@ -64,6 +64,8 @@ body {
   width: 24%;
   margin: 0 0 -1px 0;
   display: inline-block; }
+  .nav-tabs li:first-child {
+    margin-left: 10px; }
   .nav-tabs li.two, .nav-tabs li.three {
     margin-left: 2px; }
   .nav-tabs li.active a {
@@ -398,7 +400,7 @@ header .navbar {
     top: 0;
     bottom: 0; }
   .deal header .navbar {
-    background: rgba(0, 0, 0, 0.02);
+    background: transparent;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
     margin: 0;
     position: relative;
@@ -503,7 +505,7 @@ header .navbar {
   .deal .tab-content .tab-pane strong {
     display: inline-block;
     text-align: center;
-    color: #f0707f;
+    color: #212121;
     font-weight: normal; }
   .deal .tab-content .tab-pane em {
     font-weight: 100;
