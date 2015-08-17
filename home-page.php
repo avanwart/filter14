@@ -12,17 +12,17 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-sm-12">
 				<h1>Venture Capitalism. Reinvented.</h1>
-				<h2>Get exclusive investor access to Silicon Valley's rising stars.</h2>
+				<h2>Get exclusive investor access to the tech industry's rising stars.</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-6 col-md-offset-3">
 				<form method="post" action="<?php bloginfo('url'); ?>/register" class="form-horizontal" id="signup">
 					<div class="form-group">
-						<div class="col-lg-9 left">
+						<div class="col-md-8 left">
 							<input type="email" id="email" name="email" class="required form-control input-lg" placeholder="Enter your email address" value="">	
 						</div>
-						<div class="col-lg-3 right">
+						<div class="col-md-4 right">
 							<button type="submit" class="btn btn-lg btn-primary btn-block">Sign Up</button>
 						</div>
 					</div>
