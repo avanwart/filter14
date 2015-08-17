@@ -77,10 +77,10 @@
 					          <a href="#market" aria-controls="tab" role="tab" data-toggle="tab">Market Opportunity</a>
 					        </li>
 					        <li role="presentation" class="two">
-					          <a href="#product" aria-controls="home" role="tab" data-toggle="tab">Product</a>
+					          <a href="#product" aria-controls="home" role="tab" data-toggle="tab">The Product</a>
 					        </li>
 					         <li role="presentation" class="three">
-					          <a href="#kpi" aria-controls="home" role="tab" data-toggle="tab">Key Metrics</a>
+					          <a href="#kpi" aria-controls="home" role="tab" data-toggle="tab">Company Data</a>
 					        </li>
 					        <li role="presentation" class="three">
 					          <a href="#leadership" aria-controls="tab" role="tab" data-toggle="tab">Leadership</a>
