@@ -318,7 +318,7 @@ header .navbar {
         background-image: url("../images/piggy-icon.png"); }
 
 .features {
-  padding: 4em 0;
+  padding: 2em 0;
   color: white;
   background: url("../images/sf-financial.jpg") 50% 50% no-repeat;
   background-size: cover; }
@@ -473,8 +473,6 @@ header .navbar {
     border-bottom: 1px dotted #dadada; }
   .deal .table tbody > tr.last > td {
     border: none; }
-  .deal .table thead td {
-    text-decoration: underline; }
   .deal .table .value {
     font-weight: bold; }
   .deal .table td {
@@ -487,6 +485,14 @@ header .navbar {
   font-weight: 100; }
 .deal .tab-content .tab-pane {
   padding: 1.5em 30px; }
+  .deal .tab-content .tab-pane table {
+    margin-bottom: 24px; }
+    .deal .tab-content .tab-pane table.small {
+      margin-top: 0; }
+      .deal .tab-content .tab-pane table.small tr th {
+        border-top: none; }
+      .deal .tab-content .tab-pane table.small tr td, .deal .tab-content .tab-pane table.small tr th {
+        font-size: 14px; }
   .deal .tab-content .tab-pane .btn-primary, .deal .tab-content .tab-pane .btn-default {
     font-weight: 100;
     font-size: 16px; }
@@ -502,17 +508,21 @@ header .navbar {
       font-size: 30px;
       margin-bottom: 10px;
       color: #dadada; }
+  .deal .tab-content .tab-pane hr {
+    margin: 30px 0; }
   .deal .tab-content .tab-pane strong {
-    display: inline-block;
+    display: block;
     text-align: center;
     color: #212121;
-    font-weight: normal; }
+    font-weight: normal;
+    font-size: 28px; }
   .deal .tab-content .tab-pane em {
     font-weight: 100;
     text-align: center;
     font-style: normal;
     color: #212121;
-    font-size: 24px; }
+    font-size: 20px;
+    display: block; }
   .deal .tab-content .tab-pane .leader {
     padding: 0 10px; }
     .deal .tab-content .tab-pane .leader img {

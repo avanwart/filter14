@@ -353,7 +353,7 @@ header
 				background-image: url('../images/piggy-icon.png')
 				// background-size: 70px 70px
 .features
-	padding: 4em 0
+	padding: 2em 0
 	color: white
 	background: url('../images/sf-financial.jpg') 50% 50% no-repeat
 	background-size: cover
@@ -536,7 +536,7 @@ header
 			border: none
 		thead
 			td
-				text-decoration: underline
+				//text-decoration: underline
 		.value
 			font-weight: bold
 		td
@@ -550,6 +550,14 @@ header
 	.tab-content
 		.tab-pane
 			padding: 1.5em 30px
+			table
+				margin-bottom: 24px
+				&.small
+					margin-top: 0
+					tr th
+						border-top: none
+					tr td, tr th
+						font-size: 14px
 			.btn-primary, .btn-default
 				font-weight: 100
 				font-size: 16px
@@ -565,17 +573,21 @@ header
 					font-size: 30px
 					margin-bottom: 10px
 					color: #dadada
+			hr
+				margin: 30px 0
 			strong
-				display: inline-block
+				display: block
 				text-align: center
 				color: $black
 				font-weight: normal
+				font-size: 28px
 			em
 				font-weight: 100
 				text-align: center
 				font-style: normal
 				color: $black
-				font-size: 24px
+				font-size: 20px
+				display: block
 			.leader
 				padding: 0 10px
 				img

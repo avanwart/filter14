@@ -83,19 +83,19 @@ Template Name: Home Page
 			<div class="col-sm-5 text-center">
 				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/line-chart-icon.png" alt=""></div>
 				<h3>Access to Metrics</h3>
-				<p>We believe that when you see the data, you'll understand why we selected each company.</p>
+				<p>Examine the data for yourself and decide whether or not a deal could be profitable.</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-5 col-sm-offset-1 text-center">
 				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/forum-icon.png" alt=""></div>
 				<h3>Live Forum</h3>
-				<p>Questions for the CEO?  No problem.  You can ask questions directly on the deal page.</p>
+				<p>Submit questions and inquiries directly to the CEO on each deal page.</p>
 			</div>
 			<div class="col-sm-5 text-center">
 				<div class="circle"><img class="img-responsive icon" src="<?php bloginfo('template_directory'); ?>/library/images/gears-icon.png" alt=""></div>
 				<h3>Subscriptions</h3>
-				<p>You can even subscribe to each deal and include yourself in every round we raise.</p>
+				<p>Subscribe to be automatically included in every deal that hits the site.</p>
 			</div>
 		</div>
 	</div>
